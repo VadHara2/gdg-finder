@@ -1,5 +1,4 @@
 package com.example.android.gdgfinder.add
-
 import androidx.lifecycle.ViewModelProvider
 import android.os.Bundle
 import androidx.fragment.app.Fragment
@@ -36,8 +35,8 @@ class AddGdgFragment : Fragment() {
                 ).show()
                 viewModel.doneShowingSnackbar()
 
-                // TODO (01) Use the binding to set the button's text and content description.
-
+                binding.button.contentDescription=getString(R.string.submitted)
+                binding.button.text=getString(R.string.done)
             }
         })
 
