@@ -157,10 +157,6 @@
 
             </LinearLayout>
 
-            <!-- TODO (02) Change the button's text from "Ok" to "@string/submit". -->
-            <!-- TODO (03) Add a liveRegion to the button, and set it to "polite". -->
-            <!-- TODO (04) Change the button’s width and height to wrap_content, then
-                 remove its backgroundTint, textColor, and textSize attributes. -->
             <Button
                     android:id="@+id/button"
                     android:text="@string/submit"
